@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@font-face {
+  font-family: Onest;
+  src: url(/Onest-VariableFont_wght.ttf);
+}
+
+@theme {
+  --color-background: #070707;
+  --color-base: #006AFF;
+}
+
+* {
+  font-family: "Onest", sans-serif;
+}
+
+.bg {
+  background-image: url("/authbg.png");
+}
+
+.inner {
+  box-shadow: inset 0 -2px 4px #00000063, inset 0 3px 6px #ffffff50;
+}
