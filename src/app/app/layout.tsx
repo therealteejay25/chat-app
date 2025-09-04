@@ -9,8 +9,8 @@ export default function AppLayout({ children }: {children: ReactNode}) {
         <body
           className='w-screen min-h-screen text-white bg-[#0C0C0C]'
         >
-        <div className="text-xl  font-bold items-center w-full justfiy-start px-3 flex"><LogoIcon size={64} /> <p className="-translate-x-3 pt-1">ChatApp</p></div>
-          <div className="flex w-full h-full">
+        <div className="text-xl text-white bg-[#0C0C0C] font-bold items-center w-full justfiy-start px-2 flex"><LogoIcon size={64} /> <p className="-translate-x-2 pt-1">ChatApp</p></div>
+          <div className="flex text-white bg-[#0C0C0C] w-full h-[91.4vh]">
           <Sidebar />
           <div className="w-full h-full">
           {children}
