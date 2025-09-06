@@ -8,6 +8,9 @@
   --color-background: #070707;
   --color-app: #0C0C0C;
   --color-base: #006AFF;
+  --color-danger: #FF3D3D;
+  --color-warning: #FFAE00;
+  --color-success: #298B33;
 }
 
 * {
@@ -16,6 +19,11 @@
 
 .bg {
   background-image: url("/authbg.png");
+}
+
+body {
+  scrollbar-width: 'none';
+  scrollbar-color: '#4B5563 #1F293700', 
 }
 
 .inner {
